@@ -1,0 +1,142 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+    <title>BAYODE BLESSING AKINBOLA</title>
+    <link rel="stylesheet" href="CSS/StyleSheet.css" />
+</head>
+<body>
+    <div id="bordaDiv">
+        <h1>
+            Welcome To The EDSA New Skill Registration Portal.
+        </h1>
+        <strong>
+            Please fill-up the details as necessary.
+        </strong>
+        <form action="" method="post" id="theForm">
+
+            <table>
+
+                <tbody>
+                    <tr>
+                        <td>
+                            Firstname:
+                        </td>
+                        <td>
+                            <input type="text" id="fName" onchange="detailsCheck()" required />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Middle name:
+                        </td>
+                        <td>
+                            <input type="text" id="mName" onchange="detailsCheck()" required />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Lastname:
+                        </td>
+                        <td>
+                            <input type="text" id="sName" required onchange="detailsCheck()" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Email:
+                        </td>
+                        <td>
+                            <input type="email" id="email" required onchange="detailsCheck()" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Password:
+                        </td>
+                        <td>
+                            <input type="password" id="pass1" onchange="detailsCheck()" required />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Confirme password:
+                        </td>
+                        <td>
+                            <input type="password" id="pass2" onchange="detailsCheck()" required />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Date of Birth:
+                        </td>
+                        <td>
+                            <input type="date" id="dob" onchange="detailsCheck()" required />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Gender:
+                        </td>
+                        <td>
+                            <idv>
+                                <input type="radio" id="sex" required /> Male
+                                <input type="radio" id="sex" /> Female
+                            </idv>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Phone number:
+                        </td>
+                        <td>
+                            <input type="number" id="pNum" onchange="detailsCheck()" required />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Address:
+                        </td>
+                        <td>
+                            <input type="text" id="addrss" onchange="detailsCheck()" required />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Nationality:
+                        </td>
+                        <td>
+                            <select id="nation" required>
+                                <option value="">--Select Country--</option>
+                                <option value="nig">Nigeria</option>
+                                <option value="tog">Togo</option>
+                                <option value="usa">USA</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Language(s):
+                        </td>
+                        <td>
+                            <div>
+                                <input type="checkbox" id="lang" required /> English<br />
+                                <input type="checkbox" id="lang" />Yoruba<br />
+                                <input type="checkbox" id="lang" />Igbo<br />
+                                <input type="checkbox" id="lang" />Hausa
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+
+            <button type="submit" id="butt">Login</button>
+
+
+        </form>
+
+    </div>
+    <script src="JS/javaScript.js"></script>
+</body>
+</html>

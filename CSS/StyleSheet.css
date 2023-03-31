@@ -1,0 +1,41 @@
+﻿/*
+    Setting up the form display properties.
+*/
+form {
+    margin: 10px;
+    background-color: rgba(20,30,130, 0.2);
+}
+#bordaDiv {
+    background-color: rgba(250,30,130, 0.1);
+    border-style: solid;
+    margin: auto;
+    max-width: 70%;
+    margin-top:40px;
+}
+input, select, table{/* Allocating some paddings, width and margins to the input, select and table components*/
+    padding:7px;
+    margin: 2px;
+    min-width:90%;
+}
+tr td div input{
+    min-width:10%;
+    margin-top:10px;
+}
+/*
+    Setting the style of the submit button
+*/
+#butt {
+    background-color: blue;
+    margin-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left:90%;
+    min-width:10%;
+    color: ghostwhite;
+    border-color:gold;
+    border-radius: 40px;
+}
+h1{ /* Aligning the inner text of the H1 Tag to center */
+    text-align:center;
+    /*color: blue;*/
+}
